@@ -7,7 +7,7 @@ class MyException extends Exception {
 public class Custom_Exception_Demo {
         static void checkNumber(int num) throws MyException {
             if (num < 0) {
-                // throwing custom exception
+                
                 throw new MyException("Number cannot be negative");
             } else {
                 System.out.println("Number is: " + num);
