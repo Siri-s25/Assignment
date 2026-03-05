@@ -7,7 +7,7 @@ public class Division_Example {
             int b = 0;
 
             try {
-                int result = a / b;   // division by zero
+                int result = a / b;  
                 System.out.println("Result: " + result);
             }
             catch (ArithmeticException e) {
