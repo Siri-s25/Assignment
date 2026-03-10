@@ -4,7 +4,7 @@ public class Quick_Sort_Example {
 
         int partition(int arr[], int low, int high) {
 
-            int pivot = arr[high];   // choose last element as pivot
+            int pivot = arr[high];   
             int i = low - 1;
 
             for (int j = low; j < high; j++) {
@@ -12,14 +12,14 @@ public class Quick_Sort_Example {
                 if (arr[j] < pivot) {
                     i++;
 
-                    // swap arr[i] and arr[j]
+                   
                     int temp = arr[i];
                     arr[i] = arr[j];
                     arr[j] = temp;
                 }
             }
 
-            // place pivot in correct position
+           
             int temp = arr[i + 1];
             arr[i + 1] = arr[high];
             arr[high] = temp;
