@@ -14,7 +14,7 @@ public class Search_Rotated_Array {
                 if (arr[mid] == key)
                     return mid;
 
-                // Left half is sorted
+               
                 if (arr[left] <= arr[mid]) {
                     if (key >= arr[left] && key < arr[mid])
                         right = mid - 1;
@@ -22,7 +22,7 @@ public class Search_Rotated_Array {
                         left = mid + 1;
                 }
 
-                // Right half is sorted
+                
                 else {
                     if (key > arr[mid] && key <= arr[right])
                         left = mid + 1;
