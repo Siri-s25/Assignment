@@ -8,13 +8,13 @@ public class Prefix_Sum_Example {
 
             int[] prefix = new int[n];
 
-            // Construct prefix sum array
+            
             prefix[0] = arr[0];
             for (int i = 1; i < n; i++) {
                 prefix[i] = prefix[i - 1] + arr[i];
             }
 
-            // Range queries
+            
             int L = 1, R = 3;
             int sum;
 
