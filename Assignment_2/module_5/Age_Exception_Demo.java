@@ -10,6 +10,6 @@ public class Age_Exception_Demo {
         }
 
         public static void main(String[] args) {
-            checkAge(16); // change value to test
+            checkAge(16); 
         }
     }

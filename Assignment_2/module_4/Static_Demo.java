@@ -2,7 +2,7 @@ package module_4;
 class Student {
     int rollNo;
     String name;
-    static String college = "ABC College"; // static variable
+    static String college = "ABC College"; 
     Student(int r, String n) {
         rollNo = r;
         name = n;
@@ -11,7 +11,7 @@ class Student {
         college = "XYZ College";
     }
 
-    // display method
+   
     void display() {
         System.out.println(rollNo + " " + name + " " + college);
     }
